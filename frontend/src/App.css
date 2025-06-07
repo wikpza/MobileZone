@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.DialogOverlay {
+  background: rgba(0 0 0 / 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+
+.DialogContent {
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  animation: contentShow 350ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  min-width:300px;
+  max-width: 620px;
+  background: white;
+  padding: 30px;
+}
+
+.DialogContent:focus {
+  outline: none;
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 100%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -45%) scale(1);
+  }
+}
+
+@media (max-width: 650px), (max-height: 760px) {
+  .DialogContent{
+    transform: translate(-50%, -25%);
+    border-radius: 40px 40px 0 0;
+  }
+  @keyframes contentShow {
+    from {
+      opacity: 1;
+      transform: translate(-50%, 100%) scale(0.96);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -25%) scale(1);
+    }
+  }
+
+}
+
+
+.DialogTitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.DialogDescription {
+  margin: 10px 0 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
