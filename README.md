@@ -94,23 +94,36 @@ The project provides:
 ## 🖼 4. Screenshots
 
 ### 🔐 Login Page
-![Auth](screenshots/login.png)
+![Auth](./images/main.png)
 
-### 📦 Ingredient Management
-![Ingredients](screenshots/ingredients.png)
+
 
 ### 📏 Measurement Units
-![Units](screenshots/units.png)
+![Units](./images/unit.png)
+
+![UpdateUnits](./images/updateUnit.png)
+
+### 📦 Ingredient Management
+
+![Instuction](./images/instruction.png)
+
+
 
 ### 👨‍💼 Positions & Permissions
-![Positions](screenshots/positions.png)
-![Permissions](screenshots/permissions.png)
+![Positions](./images/positions.png)
+![Permissions](./images/permissions.png)
 
 ### 💰 Purchases & Loans
-![Raw Purchase](screenshots/raw-purchase.png)
-![Loans](screenshots/loan-payment.png)
+![Raw Purchase](./images/procurement.png)
+
+![Loans](./images/loanPayment.png)
+
+![Make Loan Payments](./images/makeLoanPayment.png)
 
 ### 📑 Report Generation
-![Generate Report](screenshots/report-generate.png)
-![PDF Report](screenshots/report-pdf.png)
+![Report](./images/report.png)
+
+![ReportExample](./images/exampleReport.png)
+
+![ReportFile](./images/fileReport.png)
 
