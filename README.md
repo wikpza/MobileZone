@@ -101,7 +101,6 @@ The project provides:
 ### 📏 Measurement Units
 ![Units](./images/unit.png)
 
-![UpdateUnits](./images/updateUnit.png)
 
 ### 📦 Ingredient Management
 
@@ -110,15 +109,13 @@ The project provides:
 
 
 ### 👨‍💼 Positions & Permissions
-![Positions](./images/positions.png)
-![Permissions](./images/permissions.png)
+![Positions](./images/position.png)
+![Permissions](./images/permission.png)
 
 ### 💰 Purchases & Loans
 ![Raw Purchase](./images/procurement.png)
 
 ![Loans](./images/loanPayment.png)
-
-![Make Loan Payments](./images/makeLoanPayment.png)
 
 ### 📑 Report Generation
 ![Report](./images/report.png)
@@ -126,4 +123,9 @@ The project provides:
 ![ReportExample](./images/exampleReport.png)
 
 ![ReportFile](./images/fileReport.png)
+
+
+### 🔐 Access denied
+![Auth](./images/accessDenied.png)
+
 
